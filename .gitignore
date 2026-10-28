@@ -1,0 +1,5 @@
+node_modules/
+.DS_Store
+
+# 计划与设计文档留在本地，不进仓库
+docs/superpowers/

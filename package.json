@@ -1,0 +1,41 @@
+{
+  "name": "pi-deepseek-peak-router",
+  "version": "0.1.0",
+  "description": "Pi extension that sends DeepSeek requests to a cheaper OpenRouter endpoint during DeepSeek's peak-price hours.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "deepseek",
+    "deepseek-flash",
+    "openrouter",
+    "cost",
+    "routing"
+  ],
+  "license": "MIT",
+  "author": "ymy88",
+  "type": "module",
+  "homepage": "https://github.com/ymy88/pi-deepseek-peak-router#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ymy88/pi-deepseek-peak-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ymy88/pi-deepseek-peak-router/issues"
+  },
+  "files": [
+    "src/deepseek-peak-router.ts",
+    "README.md"
+  ],
+  "pi": {
+    "extensions": [
+      "./src/deepseek-peak-router.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "scripts": {
+    "test": "bun test"
+  }
+}
